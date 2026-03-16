@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Model files (too large)
+*.pt
+*.onnx
+*.pth
+*.weights
+
+# Logs
+*.log
+diagnosis/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Images (generated data)
+*.jpg
+*.png
+*.jpeg
